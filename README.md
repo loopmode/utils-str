@@ -1,4 +1,4 @@
-# utils-str
+# @loopmode/utils-str
 
 A set of javascript string utilities.
 
