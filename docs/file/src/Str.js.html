@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/Str.js | @loopmode/utils-str</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/loopmode/utils-str"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Str.js~Str.html">Str</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Str.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+  * Contains static string utility methods.
+  */
+export default class Str {
+
+    /**
+     * Ensures that a given string starts with a slash and does not have a leading slash
+     * @param {string} str - The string in question 
+     * @return {string} A string that starts with a slash and ends without a slasg (e.g. a valid location pathname)
+     */
+    static normalizePath(str) {
+        return this.removeTrailingSlash(this.forceLeadingSlash(str));
+    }
+
+    /**
+     * Joins all given arguments to a string with slashes.
+     * Ensures there are no duplicate slashes (e.g. in case one of the arguments already had a slash at its start or end)
+     * @param {...string} parts - Any number of strings
+     * @return {string} A string that contains all given strings, concatenated with slashes
+     */
+    static joinPath(...parts) {
+        return this.normalizePath(
+            (parts || [])
+                .filter(p =&gt; !!p)
+                .join(&quot;/&quot;)
+                .replace(/\/\//g, &quot;/&quot;)
+        );
+    }
+
+    /**
+     * Ensures that a string does not end with a slash
+     * @param {string} str - The string in question 
+     * @return {string} A string that does not end with a slash
+     */
+    static removeTrailingSlash(str) {
+        if (!str) {
+            return &quot;&quot;;
+        }
+        if (str &amp;&amp; str.length &amp;&amp; str[str.length - 1] === &quot;/&quot;) {
+            return str.substr(0, str.length - 1) || &quot;&quot;;
+        }
+        return str;
+    }
+
+    /**
+     * Ensures that a string does not start with a slash
+     * @param {string} str - The string in question 
+     * @return {string} A string that does not start with a slash
+     */
+    static removeLeadingSlash(str) {
+        if (!str) {
+            return &quot;&quot;;
+        }
+        if (str &amp;&amp; str.length &amp;&amp; str[0] === &quot;/&quot;) {
+            return str.substr(1, str.length);
+        }
+        return str;
+    }
+
+    /**
+     * Ensures that a string ends with a slash
+     * @param {string} str - The string in question 
+     * @return {string} A string that ends with a slash
+     */
+    static forceTrailingSlash(str) {
+        if (str &amp;&amp; str.length &amp;&amp; str[str.length - 1] === &quot;/&quot;) {
+            return str;
+        }
+        return `${str}/`;
+    }
+
+    /**
+     * Ensures that a string starts with a slash
+     * @param {string} str - The string in question 
+     * @return {string} A string that starts with a slash
+     */
+    static forceLeadingSlash(str) {
+        if (str &amp;&amp; str[0] === &quot;/&quot;) {
+            return str;
+        }
+        return `/${str}`;
+    }
+
+    /**
+     * Ensures that the first character of a string is in uppercase.
+     * @param {string} str - The string in question 
+     * @return {string} A string that starts with a uppercase letter
+     */
+    static ucFirst(str) {
+        if (!str) {
+            return &quot;&quot;;
+        }
+        return `${str[0].toUpperCase()}${str.substr(1, str.length - 1)}`;
+    }
+
+    /**
+     * Ensures that the first character of a string is in lowercase.
+     * @param {string} str - The string in question 
+     * @return {string} A string that starts with a lowercase letter
+     */
+    static lcFirst(str) {
+        if (!str) {
+            return &quot;&quot;;
+        }
+        return `${str[0].toLowerCase()}${str.substr(1, str.length - 1)}`;
+    }
+
+    /**
+     * Checks whether a given string ends with a given other string
+     * @param {string} str1 - The string in question
+     * @param {string} str2 - The string that is possibly contained at the end of `str1`
+     * @return {boolean} true if str1 ends with str2
+     */
+    static endsWith(str1, str2) {
+        if (str1 &amp;&amp; str2) {
+            if (str1.substr(str1.length - str2.length, str1.length) === str2) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Checks whether a given string starts with a given other string
+     * @param {string} str1 - The string in question
+     * @param {string} str2 - The string that is possibly contained at the beginning of `str1`
+     * @return {boolean} true if str1 starts with str2
+     */
+    static startsWith(str1, str2) {
+        if (str1 &amp;&amp; str2) {
+            if (str1.substr(0, str2.length) === str2) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Ensures that a string has a specified length.
+     * Fills up missing length by inserting a `fill` chartacter before the original value.
+     * @param {string} value - The string in question
+     * @param {number} [length=2] - The desired length for `value`
+     * @param {string} [fill=&quot;0&quot;] - The character to insert until `length` has been reached
+     * @return {string} A string that ends in `value` and has `length` chars
+     */
+    static leftPad(value, length = 2, fill=&quot;0&quot;) {
+        const pad =
+            (length &gt;= 1 ? fill : &quot;&quot;) + String(Math.pow(10, length)).slice(1);
+        return pad.substring(0, pad.length - String(value).length) + value;
+    }
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

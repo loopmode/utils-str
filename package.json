@@ -4,8 +4,9 @@
   "description": "",
   "main": "lib/Str.js",
   "scripts": {
+    "docs": "yarn esdoc",
     "build": "rm -rf lib/* && babel src --out-dir lib",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build && yarn docs"
   },
   "keywords": [
     "strings",
@@ -18,9 +19,12 @@
   "author": "Jovica Aleksic <jovica.aleksic@loopmode.de>",
   "repository": "https://github.com/loopmode/utils-str",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.0.0-beta.49",
     "@babel/core": "^7.0.0-beta.49",
-    "@babel/preset-env": "^7.0.0-beta.49"
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "esdoc": "^1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0"
   }
 }

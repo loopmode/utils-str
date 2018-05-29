@@ -1,0 +1,1015 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Str.js",
+    "content": "/**\r\n  * Contains static string utility methods.\r\n  */\r\nexport default class Str {\r\n\r\n    /**\r\n     * Ensures that a given string starts with a slash and does not have a leading slash\r\n     * @param {string} str - The string in question \r\n     * @return {string} A string that starts with a slash and ends without a slasg (e.g. a valid location pathname)\r\n     */\r\n    static normalizePath(str) {\r\n        return this.removeTrailingSlash(this.forceLeadingSlash(str));\r\n    }\r\n\r\n    /**\r\n     * Joins all given arguments to a string with slashes.\r\n     * Ensures there are no duplicate slashes (e.g. in case one of the arguments already had a slash at its start or end)\r\n     * @param {...string} parts - Any number of strings\r\n     * @return {string} A string that contains all given strings, concatenated with slashes\r\n     */\r\n    static joinPath(...parts) {\r\n        return this.normalizePath(\r\n            (parts || [])\r\n                .filter(p => !!p)\r\n                .join(\"/\")\r\n                .replace(/\\/\\//g, \"/\")\r\n        );\r\n    }\r\n\r\n    /**\r\n     * Ensures that a string does not end with a slash\r\n     * @param {string} str - The string in question \r\n     * @return {string} A string that does not end with a slash\r\n     */\r\n    static removeTrailingSlash(str) {\r\n        if (!str) {\r\n            return \"\";\r\n        }\r\n        if (str && str.length && str[str.length - 1] === \"/\") {\r\n            return str.substr(0, str.length - 1) || \"\";\r\n        }\r\n        return str;\r\n    }\r\n\r\n    /**\r\n     * Ensures that a string does not start with a slash\r\n     * @param {string} str - The string in question \r\n     * @return {string} A string that does not start with a slash\r\n     */\r\n    static removeLeadingSlash(str) {\r\n        if (!str) {\r\n            return \"\";\r\n        }\r\n        if (str && str.length && str[0] === \"/\") {\r\n            return str.substr(1, str.length);\r\n        }\r\n        return str;\r\n    }\r\n\r\n    /**\r\n     * Ensures that a string ends with a slash\r\n     * @param {string} str - The string in question \r\n     * @return {string} A string that ends with a slash\r\n     */\r\n    static forceTrailingSlash(str) {\r\n        if (str && str.length && str[str.length - 1] === \"/\") {\r\n            return str;\r\n        }\r\n        return `${str}/`;\r\n    }\r\n\r\n    /**\r\n     * Ensures that a string starts with a slash\r\n     * @param {string} str - The string in question \r\n     * @return {string} A string that starts with a slash\r\n     */\r\n    static forceLeadingSlash(str) {\r\n        if (str && str[0] === \"/\") {\r\n            return str;\r\n        }\r\n        return `/${str}`;\r\n    }\r\n\r\n    /**\r\n     * Ensures that the first character of a string is in uppercase.\r\n     * @param {string} str - The string in question \r\n     * @return {string} A string that starts with a uppercase letter\r\n     */\r\n    static ucFirst(str) {\r\n        if (!str) {\r\n            return \"\";\r\n        }\r\n        return `${str[0].toUpperCase()}${str.substr(1, str.length - 1)}`;\r\n    }\r\n\r\n    /**\r\n     * Ensures that the first character of a string is in lowercase.\r\n     * @param {string} str - The string in question \r\n     * @return {string} A string that starts with a lowercase letter\r\n     */\r\n    static lcFirst(str) {\r\n        if (!str) {\r\n            return \"\";\r\n        }\r\n        return `${str[0].toLowerCase()}${str.substr(1, str.length - 1)}`;\r\n    }\r\n\r\n    /**\r\n     * Checks whether a given string ends with a given other string\r\n     * @param {string} str1 - The string in question\r\n     * @param {string} str2 - The string that is possibly contained at the end of `str1`\r\n     * @return {boolean} true if str1 ends with str2\r\n     */\r\n    static endsWith(str1, str2) {\r\n        if (str1 && str2) {\r\n            if (str1.substr(str1.length - str2.length, str1.length) === str2) {\r\n                return true;\r\n            }\r\n        }\r\n        return false;\r\n    }\r\n\r\n    /**\r\n     * Checks whether a given string starts with a given other string\r\n     * @param {string} str1 - The string in question\r\n     * @param {string} str2 - The string that is possibly contained at the beginning of `str1`\r\n     * @return {boolean} true if str1 starts with str2\r\n     */\r\n    static startsWith(str1, str2) {\r\n        if (str1 && str2) {\r\n            if (str1.substr(0, str2.length) === str2) {\r\n                return true;\r\n            }\r\n        }\r\n        return false;\r\n    }\r\n\r\n    /**\r\n     * Ensures that a string has a specified length.\r\n     * Fills up missing length by inserting a `fill` chartacter before the original value.\r\n     * @param {string} value - The string in question\r\n     * @param {number} [length=2] - The desired length for `value`\r\n     * @param {string} [fill=\"0\"] - The character to insert until `length` has been reached\r\n     * @return {string} A string that ends in `value` and has `length` chars\r\n     */\r\n    static leftPad(value, length = 2, fill=\"0\") {\r\n        const pad =\r\n            (length >= 1 ? fill : \"\") + String(Math.pow(10, length)).slice(1);\r\n        return pad.substring(0, pad.length - String(value).length) + value;\r\n    }\r\n};\r\n",
+    "static": true,
+    "longname": "D:/Projects/loopmode@npm/utils-str/src/Str.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Str",
+    "memberof": "src/Str.js",
+    "static": true,
+    "longname": "src/Str.js~Str",
+    "access": "public",
+    "export": true,
+    "importPath": "@loopmode/utils-str/src/Str.js",
+    "importStyle": "Str",
+    "description": "Contains static string utility methods.",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "method",
+    "name": "normalizePath",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.normalizePath",
+    "access": "public",
+    "description": "Ensures that a given string starts with a slash and does not have a leading slash",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The string in question"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that starts with a slash and ends without a slasg (e.g. a valid location pathname)"
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "method",
+    "name": "joinPath",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.joinPath",
+    "access": "public",
+    "description": "Joins all given arguments to a string with slashes.\nEnsures there are no duplicate slashes (e.g. in case one of the arguments already had a slash at its start or end)",
+    "lineNumber": 21,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "...string"
+        ],
+        "spread": true,
+        "optional": false,
+        "name": "parts",
+        "description": "Any number of strings"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that contains all given strings, concatenated with slashes"
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "name": "removeTrailingSlash",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.removeTrailingSlash",
+    "access": "public",
+    "description": "Ensures that a string does not end with a slash",
+    "lineNumber": 35,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The string in question"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that does not end with a slash"
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "removeLeadingSlash",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.removeLeadingSlash",
+    "access": "public",
+    "description": "Ensures that a string does not start with a slash",
+    "lineNumber": 50,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The string in question"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that does not start with a slash"
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "forceTrailingSlash",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.forceTrailingSlash",
+    "access": "public",
+    "description": "Ensures that a string ends with a slash",
+    "lineNumber": 65,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The string in question"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that ends with a slash"
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "forceLeadingSlash",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.forceLeadingSlash",
+    "access": "public",
+    "description": "Ensures that a string starts with a slash",
+    "lineNumber": 77,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The string in question"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that starts with a slash"
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "method",
+    "name": "ucFirst",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.ucFirst",
+    "access": "public",
+    "description": "Ensures that the first character of a string is in uppercase.",
+    "lineNumber": 89,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The string in question"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that starts with a uppercase letter"
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "lcFirst",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.lcFirst",
+    "access": "public",
+    "description": "Ensures that the first character of a string is in lowercase.",
+    "lineNumber": 101,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str",
+        "description": "The string in question"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that starts with a lowercase letter"
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "endsWith",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.endsWith",
+    "access": "public",
+    "description": "Checks whether a given string ends with a given other string",
+    "lineNumber": 114,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str1",
+        "description": "The string in question"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str2",
+        "description": "The string that is possibly contained at the end of `str1`"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "true if str1 ends with str2"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "startsWith",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.startsWith",
+    "access": "public",
+    "description": "Checks whether a given string starts with a given other string",
+    "lineNumber": 129,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str1",
+        "description": "The string in question"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "str2",
+        "description": "The string that is possibly contained at the beginning of `str1`"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "true if str1 starts with str2"
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "leftPad",
+    "memberof": "src/Str.js~Str",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Str.js~Str.leftPad",
+    "access": "public",
+    "description": "Ensures that a string has a specified length.\nFills up missing length by inserting a `fill` chartacter before the original value.",
+    "lineNumber": 146,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "The string in question"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "2",
+        "defaultRaw": 2,
+        "name": "length",
+        "description": "The desired length for `value`"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "\"0\"",
+        "defaultRaw": "0",
+        "name": "fill",
+        "description": "The character to insert until `length` has been reached"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "A string that ends in `value` and has `length` chars"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# utils-str\r\n\r\nA set of javascript string utilities.\r\n\r\n## Installation\r\n\r\n```\r\nyarn add @loopmode/utils-str\r\n```\r\n\r\n## Usage\r\n\r\n```javascript\r\nimport Str from '@loopmode/utils-str';\r\n\r\nconsole.log(Str.ucFirst('foo'));                    // 'Foo'\r\nconsole.log(Str.lcFirst('Foo'));                    // 'foo'\r\nconsole.log(Str.joinPath('foo/', '/bar', 'baz'));   // 'foo/bar/baz'\r\nconsole.log(Str.normalizePath('foo/'));             // '/foo'\r\nconsole.log(Str.removeTrailingSlash('foo/'));       // 'foo'\r\nconsole.log(Str.removeLeadingSlash('/foo'));        // 'foo'\r\nconsole.log(Str.forceTrailingSlash('foo'));         // 'foo/'\r\nconsole.log(Str.forceLeadingSlash('foo'));          // '/foo'\r\nconsole.log(Str.endsWith('foo', 'o'));              // true\r\nconsole.log(Str.startsWith('foo', 'f'));            // true\r\nconsole.log(Str.leftPad(7, 3));                     // '007'\r\n\r\n```\r\n\r\n## Docs\r\n\r\nSee /docs folder",
+    "longname": "D:\\Projects\\loopmode@npm\\utils-str\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@loopmode/utils-str\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"lib/Str.js\",\n  \"scripts\": {\n    \"docs\": \"yarn esdoc\",\n    \"build\": \"rm -rf lib/* && babel src --out-dir lib\",\n    \"prepublishOnly\": \"yarn build && yarn docs\"\n  },\n  \"keywords\": [\n    \"strings\",\n    \"utils\",\n    \"uppercaseFirst\",\n    \"ucFirst\",\n    \"leadingSlash\",\n    \"trailingSlash\"\n  ],\n  \"author\": \"Jovica Aleksic <jovica.aleksic@loopmode.de>\",\n  \"repository\": \"https://github.com/loopmode/utils-str\",\n  \"license\": \"ISC\",\n  \"devDependencies\": {\n    \"@babel/cli\": \"^7.0.0-beta.49\",\n    \"@babel/core\": \"^7.0.0-beta.49\",\n    \"@babel/preset-env\": \"^7.0.0-beta.49\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "D:\\Projects\\loopmode@npm\\utils-str\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
