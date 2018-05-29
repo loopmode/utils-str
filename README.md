@@ -29,4 +29,4 @@ console.log(Str.leftPad(7, 3));                     // '007'
 
 ## Docs
 
-See /docs folder
+Check [https://loopmode.github.io/utils-str](https://loopmode.github.io/utils-str) or the `/docs` folder
