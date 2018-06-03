@@ -9,7 +9,8 @@ export default class Str {
      * @return {string} A string that starts with a slash and ends without a slasg (e.g. a valid location pathname)
      */
     static normalizePath(str) {
-        return this.removeTrailingSlash(this.forceLeadingSlash(str));
+        return this.removeTrailingSlash(this.forceLeadingSlash(str))
+            .replace(/\/+/g, "/");
     }
 
     /**
@@ -23,12 +24,12 @@ export default class Str {
             (parts || [])
                 .filter(p => !!p)
                 .join("/")
-                .replace(/\/\//g, "/")
+                .replace(/\/+/g, '/')
         );
     }
 
     /**
-     * Ensures that a string does not end with a slash
+     * Ensures that a string does not end with a slash, unless the entire string is "/".
      * @param {string} str - The string in question 
      * @return {string} A string that does not end with a slash
      */
@@ -36,14 +37,14 @@ export default class Str {
         if (!str) {
             return "";
         }
-        if (str && str.length && str[str.length - 1] === "/") {
-            return str.substr(0, str.length - 1) || "";
+        if (str.length === 1) {
+            return str;
         }
-        return str;
+        return str.replace(/\/+$/g, "");
     }
 
     /**
-     * Ensures that a string does not start with a slash
+     * Ensures that a string does not start with a slash, unless the entire string is "/".
      * @param {string} str - The string in question 
      * @return {string} A string that does not start with a slash
      */
@@ -51,10 +52,10 @@ export default class Str {
         if (!str) {
             return "";
         }
-        if (str && str.length && str[0] === "/") {
-            return str.substr(1, str.length);
+        if (str.length === 1) {
+            return str;
         }
-        return str;
+        return str.replace(/^\/+/g, "");
     }
 
     /**
@@ -137,7 +138,7 @@ export default class Str {
 
     /**
      * Ensures that a string has a specified length.
-     * Fills up missing length by inserting a `fill` chartacter before the original value.
+     * Fills up missing length by inserting a `fill` character before the original value.
      * @param {string} value - The string in question
      * @param {number} [length=2] - The desired length for `value`
      * @param {string} [fill="0"] - The character to insert until `length` has been reached
@@ -145,7 +146,7 @@ export default class Str {
      */
     static leftPad(value, length = 2, fill="0") {
         const pad =
-            (length >= 1 ? fill : "") + String(Math.pow(10, length)).slice(1);
+            (length >= 1 ? fill : "") + String(Math.pow(10, length - 1)).slice(1).replace(/[a-zA-Z0-9]/g, fill);
         return pad.substring(0, pad.length - String(value).length) + value;
     }
 };

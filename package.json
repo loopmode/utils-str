@@ -1,13 +1,11 @@
 {
   "name": "@loopmode/utils-str",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/Str.js",
-  "scripts": {
-    "docs": "yarn esdoc",
-    "build": "rm -rf lib/* && babel src --out-dir lib",
-    "prepublishOnly": "yarn build && yarn docs"
-  },
+  "author": "Jovica Aleksic <jovica.aleksic@loopmode.de>",
+  "repository": "https://github.com/loopmode/utils-str",
+  "license": "ISC",
   "keywords": [
     "strings",
     "utils",
@@ -16,13 +14,28 @@
     "leadingSlash",
     "trailingSlash"
   ],
-  "author": "Jovica Aleksic <jovica.aleksic@loopmode.de>",
-  "repository": "https://github.com/loopmode/utils-str",
-  "license": "ISC",
+  "scripts": {
+    "docs": "yarn esdoc",
+    "build": "rm -rf lib/* && babel src --out-dir lib",
+    "prepublishOnly": "yarn build && yarn docs",
+    "test": "ava src/**/*.test.js --verbose",
+    "test:watch": "ava --verbose --watch"
+  },
+  "ava": {
+    "files": [
+      "src/**/*.test.js"
+    ],
+    "sources": [
+      "**/*.{js}"
+    ],
+    "require": "./test/setup.js"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.49",
     "@babel/core": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/register": "^7.0.0-beta.49",
+    "ava": "^0.25.0",
     "esdoc": "^1.1.0",
     "esdoc-ecmascript-proposal-plugin": "^1.0.0",
     "esdoc-standard-plugin": "^1.0.0"
